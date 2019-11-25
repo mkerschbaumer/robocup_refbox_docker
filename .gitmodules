@@ -1,0 +1,3 @@
+[submodule "atwork_central_factory_hub"]
+	path = atwork_central_factory_hub
+	url = https://github.com/mkerschbaumer/atwork_central_factory_hub
