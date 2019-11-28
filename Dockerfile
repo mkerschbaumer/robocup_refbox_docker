@@ -28,3 +28,6 @@ USER ros
 
 RUN cd $REFBOX_DIR && \
     make
+
+COPY entrypoint.sh /entrypoint.sh
+ENTRYPOINT [ "/entrypoint.sh" ]
